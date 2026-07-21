@@ -1,0 +1,37 @@
+This is VITAL information if you deviate from the suggested IR emitter!
+
+BS EN 62471:2008
+https://knowledge.bsigroup.com/products/photobiological-safety-of-lamps-and-lamp-systems
+
+At 950 nm, optical radiation sits in the Infrared-A (IR-A) band (780 nm to 1,400 nm)
+
+Because 950 nm is invisible to the human eye, it presents unique risks: 
+	the eye's natural aversion reflex (blinking or turning away) is NOT triggered. 
+	As a result, the eye can be exposed to elevated levels of radiation without any immediate warning.  
+
+Under BS EN 62471 / IEC 62471, light sources emitting at 950 nm (such as IR illumination LEDs, LiDAR, night-vision illuminators, 
+or industrial sensors) are evaluated primarily against three main hazards:
+	Retinal Thermal Hazard – Weak Visual Stimulus (Section 4.3.6)
+
+The Mechanism: 
+	Because the beam focuses onto a small area of the retina, high power densities can cause localized thermal burns on retinal tissue.
+
+The Weighting Factor R(λ): 
+	The standard applies a spectral weighting function R(λ) to adjust for how effectively different wavelengths damage the retina. At 950 nm:
+	R(950 nm) = 10^(0.002⋅(700−950)) ≈ 0.316
+Why it matters: 
+	Even though R(λ) drops at 950 nm compared to visible light (R=1.0), the absence of a blink reflex means the exposure duration t used in calculations 
+	is much longer (often default evaluated up to 10s or 1000s rather than the 0.25s aversion limit)
+
+The notes for the SFH4545:
+Notes
+The evaluation of eye safety occurs according to the standard IEC 62471:2006 (photo biological safety of
+lamps and lamp systems). Within the risk grouping system of this IEC standard, the device specified in this
+data sheet falls into the class exempt group (exposure time 10000 s). Under real circumstances (for expo-
+sure time, conditions of the eye pupils, observation distance), it is assumed that no endangerment to the
+eye exists from these devices. As a matter of principle, however, it should be mentioned that intense light
+sources have a high secondary exposure potential due to their blinding effect. When looking at bright light
+sources (e.g. headlights), temporary reduction in visual acuity and afterimages can occur, leading to irrita-
+tion, annoyance, visual impairment, and even accidents, depending on the situation.
+
+If a different emitter is used, it may no longer be safe!
